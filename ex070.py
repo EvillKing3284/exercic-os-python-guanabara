@@ -1,1 +1,0 @@
-print("batatatinha frita 123")
