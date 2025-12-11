@@ -17,4 +17,4 @@ while escolha != 5:
         valor2 = int(input("Segundo valor: "))
     else:
         print("Código incorreto, tente novamente!")
-        #Após revisar e estudar como fazer este código, consegui fazer sozinho, apenas com pequenos erros
+        #Após revisar e estudar como fazer este código, consegui fazer sozinho, apenas com pequenos erros, porém está corrigido!
