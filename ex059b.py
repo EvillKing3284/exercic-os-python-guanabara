@@ -1,3 +1,4 @@
+from time import sleep
 valor1 = int(input("Primeiro valor: "))
 valor2 = int(input("Segundo valor: "))
 escolha = 0
@@ -15,6 +16,10 @@ while escolha != 5:
     elif escolha == 4:
         valor1 = int(input("Primeiro valor: "))
         valor2 = int(input("Segundo valor: "))
+    elif escolha == 5:
+        print("Finalizando...")
+        sleep(1)
+        print("Volte sempre!! Programa finalizado")
     else:
         print("Código incorreto, tente novamente!")
         #Após revisar e estudar como fazer este código, consegui fazer sozinho, apenas com pequenos erros, porém está corrigido!
