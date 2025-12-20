@@ -1,4 +1,4 @@
-usuario = int(input("Digite um número [999 para parar]: "))
+usuario = 0
 soma = 0
 contador = 0
 while usuario != 999:
