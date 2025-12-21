@@ -4,5 +4,4 @@ while True:
     if num == 999:
         break
     soma += num
-
 print(soma)
