@@ -5,8 +5,8 @@ while True:
         break
     cont = 0 #tinha errado o redimensionamento da linha
     while True:
-        print(f"{usuario} x {cont} = {usuario * cont}")
         cont += 1
+        print(f"{usuario} x {cont} = {usuario * cont}")
         if cont > 10:
             break
 
