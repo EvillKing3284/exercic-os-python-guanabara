@@ -6,7 +6,7 @@ while True:
     if total >= ced:
         qtd = total // ced
         print(f"O total de {qtd} cédulas de R${ced} ")
-        total %= ced              #Quanto sobre de resto da divisão da primeira cédula: 50, 20, 10, 5 e 1
+        total %= ced              #Quanto sobra de resto da divisão da primeira cédula, e assim por diante: 50, 20, 10, 5 e 1
     else:
         if ced == 50:
             ced = 20
