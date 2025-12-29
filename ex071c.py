@@ -4,7 +4,7 @@ total = saque
 ced = 50
 while True:
     if total >= ced:
-        qtd = total // ced                   #Terceira forma com matematica pura
+        qtd = total // ced                 #Terceira forma com matematica pura
         total = total - (ced * qtd)
         print(f"O total dê {qtd} cédulas de R${ced} ")
     else:
