@@ -29,3 +29,6 @@ while True:
         break
 
 print(f"\nVocê acertou {contador} vezes")
+
+
+print("Vamos ver isso na prática?")
