@@ -1,0 +1,5 @@
+brasileirao = ("Botafogo", "Palmeiras", "Fortaleza", "Internacional", "Flamengo", "São Paulo", "Cruzeiro", "Bahia", "Corinthians", "Vitória", "Vasco", "Juventude", "Grêmio","Fluminense", "Atlético-MG","RB Bragantino","Ceará","Santos","Sport","Mirassol")
+print(f"Listas de times do Brasileirão: {brasileirao}\n")
+print(f"Os 5 primeiros colocados são: {brasileirao[0:5]}\n")
+print(f"Os 4 ultimos colocados são: {brasileirao[16:20]}\n")
+print(f"Time em ordem alfabetica: {sorted(brasileirao)}\n")
