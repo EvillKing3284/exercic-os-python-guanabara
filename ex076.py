@@ -1,5 +1,14 @@
-termo1 = int(input('Primeiro termo: '))
-razao = int(input('Razão: '))
-for sequencia in range(0, 10,):
-    print(f"{ termo1 + sequencia * razao }") #exemplo: se o (primeiro termo) for ex: 10 e a (razão) for ex: 2 o cálculo vai ser 10 + sequencia + 2
-
+tupla = ("Lápis", 1.75, "Borracha", 2.00, "Caderno", 15.90, "Estojo", 25.00, "Transferidor", 4.20, "compasso", 9.99, "Mochila", 120.32, "Canetas", 22.30, "Livro", 34.90)
+print(f"""======================================
+          LISTAGEM DE PREÇO
+======================================
+{tupla[0]}..........................R${tupla[1]}
+{tupla[2]}...................;...R${tupla[3]}0
+{tupla[4]}........................R${tupla[5]}0
+{tupla[6]}.........................R${tupla[7]}0
+{tupla[8]}...................R${tupla[9]}0
+{tupla[10]}.......................R${tupla[11]}
+{tupla[12]}........................R${tupla[13]}
+{tupla[14]}........................R${tupla[15]}0
+{tupla[16]}..........................R${tupla[17]}0
+======================================""")
